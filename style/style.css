@@ -1,0 +1,134 @@
+/*
+  Theme Name: IE Digital: Code-Challenge-1
+  Author: Lucas Jordan
+  Description: Git hub code challenge from IE Digital - Styles
+  Version: 0.0.1
+  Copyright: Lucas Jordan
+*/
+
+/*-----------------------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+-------------------------------------------------------------------------------
+#   Reset
+#   Include fonts
+#   Global ctyles
+#   Core styles
+#   Utility classes
+-----------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------
+#   Reset
+-----------------------------------------------------------------------------*/
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+*:focus {
+    outline: 0px;
+}
+
+
+/*-----------------------------------------------------------------------------
+#   Include fonts
+-----------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+
+/*-----------------------------------------------------------------------------
+#   Global styles
+-----------------------------------------------------------------------------*/
+body {
+    font-family: 'Lato', "Helvetica Neue", Helvetica,Roboto,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.44;
+    color: #333;
+}
+footer {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0.6em 0;
+}
+/*-----------------------------------------------------------------------------
+#   Core styles
+-----------------------------------------------------------------------------*/
+main {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: block;
+    position:relative;
+    max-width: 64rem;
+    margin: 0 auto;
+}
+header {
+    display: block;
+    text-align: center;
+}
+header h1 {
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 2em 0;
+}
+.description {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.control-block {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+}
+.control-block label {
+    display: block;
+    font-weight: 700;
+}
+.control-block textarea {
+    display: block;
+    position: relative;
+    width: 60%;
+}
+button {
+    display: inline-block;
+    position: relative;
+    background-color: #3F91F4;
+    color: #ffffff;
+    padding: 0.5em 1.5em;
+    margin: 0.2em 0;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Lato', "Helvetica Neue", Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.2;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+button:hover,
+button:active,
+button:focus {
+    background-color: #367BD1;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+/*-----------------------------------------------------------------------------
+#   Utility classes
+-----------------------------------------------------------------------------*/
